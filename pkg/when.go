@@ -9,6 +9,6 @@ type MockMethod struct {
 
 func (method *MockMethod) When(arguments ...interface{}) *MockResult {
 	return &MockResult{
-		call: method.mock.On(method.MethodName, arguments...),
+		Call: method.mock.On(method.MethodName, arguments...),
 	}
 }
