@@ -1,4 +1,4 @@
-module github.com/Ramsey-B/go-mockit
+module github.com/ramsey-b/go-mockit
 
 go 1.20
 
