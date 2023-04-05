@@ -1,4 +1,4 @@
-module go-mockit
+module github.com/Ramsey-B/go-mockit
 
 go 1.16
 
